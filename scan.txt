@@ -1,0 +1,31 @@
+2. Assignment(Lists):
+
+a. 
+
+b. 
+
+c. 
+
+d. 
+
+3.:
+
+a. 
+
+b. 
+
+c. 
+
+d. 
+
+e. 
+
+f. 
+
+g. 
+
+h. 
+
+1. Create a directory named pages within the links-and-images directory and move the about.html file into this new directory. Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the About page file has changed. To fix this, you just need to update the about link href value to include the pages directory since that is the new location of the about file relative href="./ pages / a * bout .html">About</a> to the index file. <a
+
+j. In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending / before the link will in most cases prevent such issues. By adding ./ you are specifying to your code that it should start looking for the file/directory relative to the current directory. You can also
